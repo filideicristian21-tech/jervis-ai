@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="JERVIS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1C20"/><stop offset="1" stop-color="#0B0C0E"/></linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4D5E"/><stop offset="1" stop-color="#C81E33"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="0" fill="url(#bg)"/>
+  <!-- anello esagonale sottile: "nucleo" di JERVIS -->
+  <polygon points="256,96 394,176 394,336 256,416 118,336 118,176" fill="none" stroke="#3A3D44" stroke-width="10"/>
+  <!-- J geometrica -->
+  <path d="M296 168 V300 a52 52 0 0 1 -104 0" fill="none" stroke="#F4F5F7" stroke-width="34" stroke-linecap="round"/>
+  <rect x="279" y="128" width="34" height="18" rx="9" fill="url(#red)"/>
+</svg>
